@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interview Creation Portal</title>
+  <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+    <header
+    <nav>
+        <a href="interview.html">Interviews</a>
+    </nav>
+</header>
+  <h1><Big>Interview Creation Portal</Big></h1>
+  <<form  id="interviews" action="/interviews"  method="POST">
+    <h2>Create Interview</h2>
+    <label type="text"for="participants" name="participants">Participants:</label>
+    <input type="text" id="participants" name="participants" required>
+<br>
+    <label for="start-time">Start Time:</label>
+    <input type="datetime-local" id="start-time" name="start-time">
+    <br>
+    <label for="end-time">End Time:</label>
+    <input type="datetime-local" id="end-time" name="end-time">
+    <br>
+    <button type="submit">Create Interview</button>
+  </form>
+  <div id="edit-interview-modal" class="modal">
+    <div class="modal-content">
+
+
+      <form id="edit-interview-form" method="POST "action="edit-interview-form">
+        <h2>Edit Interview</h2>
+
+        <label for="participants">Participants:</label>
+        <input type="text" id="participants" name="participants" required>
+        <br>
+        <label for="edit-start-time">Start Time:</label>
+        <input type="datetime-local" id="edit-start-time" name="start-time">
+        <br>
+        <label for="edit-end-time">End Time:</label>
+        <input type="datetime-local" id="edit-end-time" name="end-time">
+        <br>
+        <button type="submit" value="Update Interview">Save Changes</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="server.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+table {
+	border-collapse: collapse;
+	margin-top: 20px;
+    position: center;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #dd1620;
+}
+body{
+    background-image: url('6.jpg');
+}

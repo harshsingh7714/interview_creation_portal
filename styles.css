@@ -1,0 +1,79 @@
+.container {
+	max-width: 200px;
+	margin: 0;
+	padding: 20px;
+}
+
+h1 ,h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+select,
+input[type="datetime-local"] {
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+	background-color: #af2e2e;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #d51b1e;
+}
+body{
+    background-image:url('6.jpg') ;
+}
+form#interviews{font-size: large;
+    font-weight: bold;
+    margin-bottom: 100px;
+    background-color: rgb(247, 247, 80);
+	padding: 5px;
+	border-radius: 10px;
+	border: 2px solid #0e0a0a;
+    
+    width: 270px;;
+    position:relative;
+    left: 0px;
+    top: 90px;
+   
+}
+form#edit-interview-form{font-size: large;
+    font-weight: bold;
+    
+    background-color:rgb(15, 150, 136);
+	padding: 5px;
+	border-radius: 10px;
+	border: 2px solid #0e0a0a;
+    
+    width: 300px;;
+    position:relative;
+    left: 1180px;
+    bottom: 400px;
+   
+}
+header{
+    position: relative;
+    left: 1300px;
+    font:bold;font-size: large;
+    top: 50px;
+    width: 80px;
+    padding: 10px 20px;
+	text-decoration-color: #0e0a0a;
+	border:2px solid black;
+	border-radius: 5px;
+	background-color: #a6d4df;
+}
