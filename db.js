@@ -6,6 +6,7 @@ const connection = mysql.createConnection({
   user: 'root',
   password: 'new_password',
   database: 'interviewdatabase',
+  port: 3306
 });
 
 connection.connect((err) => {
